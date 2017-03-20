@@ -1,0 +1,43 @@
+#message .item{
+  position: relative;
+}
+#message .popover{
+  max-width: 100%;
+  display: block;
+}
+#message .popover.left{
+  right: 55px;
+  top:0; 
+  background: #5cb85c;
+  color: #333;
+  left: auto;
+}
+
+#message .popover.right{
+  left:55px;
+}
+
+#message .popover.left .arrow{
+  border-left-color:#5cb85c;
+}
+#message .popover.left .arrow:after{
+  border-right-color:#5cb85c;
+  border-left-color:#5cb85c;
+}
+
+#message .popover .arrow{
+  top: 20px;
+}
+
+#message .item .message_title{
+  padding-top: 10px;
+}
+#message .popover.left .popover-content{
+  
+}
+#message .popover-content{
+  padding: 9px 10px;
+}
+#message .popover-content p{
+  margin: 0;
+}
